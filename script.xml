@@ -1,0 +1,3102 @@
+<script>
+<header name="Discovery of Discovery Mod v0.15">
+<scriptversion>
+1.4
+</scriptversion>
+<author>
+He||oween
+</author>
+<modurl>
+http://dod.the-starport.ru
+</modurl>
+<description>
+Discovery of Discovery
+</description>
+</header>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dock_ring
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = docking_fixture
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = jumpgate
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = jumpgate_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = nomad_gate
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = track_ring
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = mplatform
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = depot
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = smallstation1
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = largestation1
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = smallstation1_old
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = smallstation1_old_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = largestation1_old
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = outpost
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = military_icebase1
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_small_ice
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_ice_block
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_small_rock
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_badlands
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_fraga
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_fragb
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_fragc
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_mineablea
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_mineableb
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_nomad
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = co_base_rock_large01
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = co_base_rock_large02
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = co_base_ice_large02
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = gas_miner
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = gas_miner_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = gas_miner_old
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = gas_miner_sat
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = gas_miner_mission_sat
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_asteroid
+</section>
+<source>
+destructible = true
+hit_pts = 10500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_generator
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk1a
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk1b
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk2a
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk2b
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk3a
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk3b
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk3c
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk3d
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_chunk3e
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = rh_battleship_debris_frnt
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = rh_battleship_debris_rear
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = rh_cruiser_debris
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = rh_cruiser_debris_frnt
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = rh_cruiser_debris_rear
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = br_debris_eng
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = br_debris_hull01
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = br_debris_hull02
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = br_debris_hull03
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = br_debris_hull04
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = br_debris_hull05
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = br_debris_hull06
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Roid_Miner
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Roid_Miner2
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = l_dreadnought
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = l_dreadnought_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = b_battleship
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = k_battleship
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = r_battleship
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = o_osiris
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = luxury_liner
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = prison
+</section>
+<source>
+destructible = true
+hit_pts = 4500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = large_transport
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = shipyard
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_MSN10_Shipyard, 0.000000, 1
+explosion_arch = explosion_shipyard
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = shipyard_2x
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_MSN10_Shipyard, 0.000000, 1
+explosion_arch = explosion_shipyard
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = MSN10_shipyard
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_MSN10_Shipyard, 0.000000, 1
+explosion_arch = explosion_shipyard
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = telescope
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = com_sat
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = blhazard
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = baxter_hazard
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = gravity_buoy
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = nav_buoy
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = m10_buoy
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = hazard_buoy
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = MSN03_buoy
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Trade_Lane_Ring
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Trade_Lane_Ring_Construct_A
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Trade_Lane_Ring_Construct_A1
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Trade_Lane_Ring_Construct_B
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Trade_Lane_Ring_Damage_A
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Trade_Lane_Ring_Damage_B
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = debris_large01
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = debris_xlarge01
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = debris_med01
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = debris_med02
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = fuchu_core
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_nomad01_largeA
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_nomad01_largeB
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_icecrystal_largeA
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_icecrystal_largeB
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_lava02_largeA
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_lava02_largeB
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_mineable_largeA
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_mineable_largeB
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_ice_largeA
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_ice_largeB
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_solar_mineable_60
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_solar_mineable2_60
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_solar_beryllium_60
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_solar_ice_60
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_solar_iceblock_60
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_solar_icecarbon_60
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ast_solar_lava02_60
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dyson_city
+</section>
+<source>
+destructible = true
+hit_pts = 15500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dyson
+</section>
+<source>
+destructible = true
+hit_pts = 55500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dyson_airlock
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dyson_airlock_inside
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = lair
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = lair_core
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = lair_power_cell
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = lair_platform
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = nomad_dome_shield
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_shipping01
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_shipping02
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_freeport01
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_port_dmg
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_mining01
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_police01
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_factory01
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_factory02
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_dome
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_industrial
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_industrial01
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_industrial02
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_habitat_wide
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_habitat_tall
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_research
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl2
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl2x2
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl4
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl4x4
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tanklx4
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tanks4
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tanksx4
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_beaml_dmg
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_beamx_dmg
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_beamx_messina
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_habitat_dmg
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_police_dmg
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = Ithaca_station
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_industrial_dmg
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = junction_wreck
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl4x4_dmg
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl4_dmg
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl_3dmg
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl_2dmg
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tankl_1dmg
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tanks_3dmg
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tanks_2dmg
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_tanks_1dmg
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_solar_pnl
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_solar_plant
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = hispania_sleeper_ship
+</section>
+<source>
+destructible = true
+hit_pts = 10500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = planet_storm_5000
+</section>
+<source>
+destructible = true
+hit_pts = 500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = miningbase_abandoned
+</section>
+<source>
+destructible = true
+hit_pts = 2500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = lr_huegenot
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = m_huegenot
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_base_procurator
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian
+</section>
+<source>
+destructible = true
+hit_pts = 10500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_outpost_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_docking_ring, 0.000000, 1
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_asteroid
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = intermed_damage_smallship01, 0.000000, 400
+fuse = intermed_damage_smallship02, 0.000000, 200
+fuse = intermed_damage_smallship03, 0.000000, 100
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = dsy_cruiser_death_player_fuse, 0.000000, 1
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk1a
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk1b
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk2a
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk2b
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk3a
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk3b
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk3c
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk3d
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = space_arch_obsidian_chunk3e
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ou_procurator
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ga_battleship
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = cou_battleship
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ku_destroyer_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_lair_platform_inner
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_lair_platform_outer
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_lair_generator
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_city
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_city_gate
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_city_generator
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_city_platform_inner
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_city_platform_outer
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_labs_battleship
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_artifact
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_labs_no_scorpion
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_new_gate
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_lane
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_static_recusant
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_static_procurator
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = nomad_gate_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = mine_buoy
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = asteroid_buoy
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = wild_gate_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_ancient_gate
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_ancient_gate_broken
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_ancient_gate_broken_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_shrine
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_lane_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_nomad_cryocrystal
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_static_corsair_battleship
+</section>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_static_corsair_cruiser
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = lr_ridgeback_nodock
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_static_gmg_miner
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = dsy_static_typhoon
+</section>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = wplatform_special
+</section>
+<source>
+destructible = true
+hit_pts = 1500000
+fuse = fuse_suprise_drop_loot, 0.000000, 1
+fuse = drop_cargo_fuse, 0.000000, 1
+fuse = dsy_gunboat_death_player_fuse, 0.000000, 1
+explosion_arch = explosion_wplatform
+</source>
+</data>
+
+<data file="data\solar\loadouts.ini" method="sectionmodify">
+<section>
+[Loadout]
+nickname = weapon_platform_unlawful
+</section>
+<source>
+equip = dsy_lg_power
+equip = small_station_inferno, HpTurret01
+equip = ga_wp_turret02_mark02, HpTurret02
+equip = small_station_inferno, HpTurret03
+equip = ga_wp_turret02_mark02, HpTurret04
+cargo = commodity_scrap_metal, 40
+cargo = commodity_ship_hull_panels, 20
+</source>
+</data>
+
+<data file="data\solar\loadouts.ini" method="sectionmodify">
+<section>
+[Loadout]
+nickname = ou_huegenot_nodock_01
+</section>
+<source>
+equip = dsy_assault_power
+equip = ge_s_scanner_09
+equip = ga_mortar0, HpWeapon01
+equip = fc_ou_gun02_mark05, HpWeapon02
+equip = hessian_missile_turret01, HpTurret01
+cargo = commodity_scrap_metal, 40
+cargo = commodity_ship_hull_panels, 20
+cargo = commodity_cardamine, 40
+cargo = commodity_engine_components, 20
+cargo = commodity_humanorgans, 40
+cargo = Escape_Pod, 20
+cargo = escape_lifeboat, 20
+</source>
+</data>
+
+<data file="data\solar\loadouts.ini" method="sectionmodify">
+<section>
+[Loadout]
+nickname = ou_huegenot_nodock_02
+</section>
+<source>
+equip = dsy_assault_power
+equip = ge_s_scanner_09
+equip = ga_mortar0, HpWeapon01
+equip = fc_ou_gun02_mark05, HpWeapon02
+equip = hessian_missile_turret01, HpTurret01
+cargo = commodity_scrap_metal, 40
+cargo = commodity_ship_hull_panels, 20
+cargo = commodity_cardamine, 40
+cargo = commodity_engine_components, 20
+cargo = commodity_humanorgans, 40
+cargo = Escape_Pod, 20
+cargo = escape_lifeboat, 20
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionmodify">
+<section>
+[Solar]
+nickname = ou_huegenot_nodock
+</section>
+<source>
+hit_pts = 3500000.000000
+fuse = intermed_damage_smallship01, 0.000000, 400
+fuse = intermed_damage_smallship02, 0.000000, 200
+fuse = intermed_damage_smallship03, 0.000000, 100
+fuse = freeport7_main_fuse1, 0.000000, 1
+fuse = dsy_cruiser_death_player_fuse, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\fx\explosions.ini" method="sectionreplace">
+<section>
+[explosion]
+nickname = explosion_shipyard
+</section>
+<dest>
+innards_debris_object = simple_space_beaml_dmg
+innards_debris_object = simple_space_beamx_dmg
+innards_debris_object = simple_space_habitat_dmg
+</dest>
+<source>
+innards_debris_object = simple_space_beaml_dmg
+innards_debris_object = simple_space_beamx_dmg
+</source>
+</data>
+
+</script>

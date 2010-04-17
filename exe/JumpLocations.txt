@@ -1,0 +1,149 @@
+;
+; Here is locations for /jump command
+;
+; Format:
+;	Each entry must be in following format
+;		location_name = system_nickname, base_nickname
+;	or
+;		location_name = system_nickname, x, y, z, rot_x, rot_y, rot_z
+;	where x, y, z are position space like in pos= parameter in player save file
+;	and rot_x, rot_y, rot_z are orientation like in rotate= parameter.
+;
+; List compiled by foxUnit01 (foxUnit01@hotmail.com)
+;
+
+;Liberty 
+NewYork = li01, li01_01_base 
+New_York = li01, li01_01_base 
+New-York = li01, li01_01_base 
+li01 = li01, li01_01_base 
+California = li02, li02_01_base 
+li02 = li02, li02_01_base 
+Colorado = li03, li03_01_base 
+li03 = li03, li03_01_base 
+Texas = li04, li04_01_base 
+li04 = li04, li04_01_base 
+
+;Bretonia 
+NewLondon = br01, br01_01_base 
+New_London = br01, br01_01_base 
+New-London = br01, br01_01_base 
+br01 = br01, br01_01_base 
+Manchester = br02, br02_01_base 
+br02 = br02, br02_01_base 
+Leeds = br04, br04_01_base 
+br04 = br04, br04_01_base 
+Cambridge = br03, br03_01_base 
+br03 = br03, br03_01_base 
+Dublin = br05, br05_01_base 
+br05 = br05, br05_01_base 
+Edinburgh = br06, br06_01_base 
+br06 = br06, br06_01_base 
+
+;Kusari 
+NewTokyo = ku01, ku01_01_base 
+New_Tokyo = ku01, ku01_01_base 
+New-Tokyo = ku01, ku01_01_base 
+ku01 = ku01, ku01_01_base 
+Shikoku = ku02, ku02_01_base 
+ku02 = ku02, ku02_01_base 
+Kyushu = ku03, ku03_01_base 
+ku03 = ku03, ku03_01_base 
+Honshu = ku04, ku04_01_base 
+ku04 = ku04, ku04_01_base 
+Hokkaido = ku05, ku05_01_base 
+ku05 = ku05, ku05_01_base 
+Chugoku = ku06, ku06_01_base 
+ku06 = ku06, ku06_01_base 
+Tohoku = ku07, ku07_01_base 
+ku07 = ku07, ku07_01_base 
+
+;Rheinland 
+NewBerlin = rh01, rh01_01_base 
+New_Berlin = rh01, rh01_01_base 
+New-Berlin = rh01, rh01_01_base 
+rh01 = rh01, rh01_01_base 
+Hamburg = rh02, rh02_01_base 
+rh02 = rh02, rh02_01_base 
+Stuttgart = rh03, rh03_01_base 
+rh03 = rh03, rh03_01_base 
+Frankfurt = rh04, rh04_01_base 
+rh04 = rh04, rh04_01_base 
+Dresden = rh05, rh05_01_base 
+rh05 = rh05, rh05_01_base 
+
+;Independant Worlds 
+Bering = iw01, iw01_01_base 
+iw01 = iw01, iw01_01_base 
+Hudson = iw02, iw02_01_base 
+iw02 = iw02, iw02_01_base 
+Magellan = iw03, iw03_01_base 
+iw03 = iw03, iw03_01_base 
+Cortez = iw04, iw04_01_base 
+iw04 = iw04, iw04_01_base 
+Kepler = iw05, iw05_01_base 
+iw05 = iw05, iw05_01_base 
+Galileo = iw06, iw06_01_base 
+iw06 = iw06, iw06_01_base 
+
+;Border Worlds 
+Omega3 = bw01, bw01_02_base 
+Omega_3 = bw01, bw01_02_base 
+Omega-3 = bw01, bw01_02_base 
+bw01 = bw01, bw01_02_base 
+Omega5 = bw02, bw02_01_base 
+Omega_5 = bw02, bw02_01_base 
+Omega-5 = bw02, bw02_01_base 
+bw02 = bw02, bw02_01_base 
+Omega7 = bw03, bw03_01_base 
+Omega_7 = bw03, bw03_01_base 
+Omega-7 = bw03, bw03_01_base 
+bw03 = bw03, bw03_01_base 
+Omega11 = bw04, bw04_01_base 
+Omega_11 = bw04, bw04_01_base 
+Omega-11 = bw04, bw04_01_base 
+bw04 = bw04, bw04_01_base 
+Sigma13 = bw05, bw05_01_base 
+Sigma_13 = bw05, bw05_01_base 
+Sigma-13 = bw05, bw05_01_base 
+bw05 = bw05, bw05_01_base 
+Sigma17 = bw06, bw06_01_base 
+Sigma_17 = bw06, bw06_01_base 
+Sigma-17 = bw06, bw06_01_base 
+bw06 = bw06, bw06_01_base 
+Sigma19 = bw07, bw07_01_base 
+Sigma_19 = bw07, bw07_01_base 
+Sigma-19 = bw07, bw07_01_base 
+bw07 = bw07, bw07_01_base 
+Tau23 = bw08, bw08_01_base 
+Tau_23 = bw08, bw08_01_base 
+Tau-23 = bw08, bw08_01_base 
+bw08 = bw08, bw08_01_base 
+Tau29 = bw09, bw09_01_base 
+Tau_29 = bw09, bw09_01_base 
+Tau-29 = bw09, bw09_01_base 
+bw09 = bw09, bw09_01_base 
+Tau31 = bw10, bw10_01_base 
+Tau_31 = bw10, bw10_01_base 
+Tau-31 = bw10, bw10_01_base 
+bw10 = bw10, bw10_01_base 
+
+;Hispania (?) / Edge Worlds 
+OmicronAlpha = hi01, hi01_01_base 
+hi01 = hi01, hi01_01_base 
+OmicronGamma = hi02, hi02_01_base 
+hi02 = hi02, hi02_01_base 
+Tau37 = ew01, ew01_01_base 
+Tau_37 = ew01, ew01_01_base 
+Tau-37 = ew01, ew01_01_base 
+ew01 = ew01, ew01_01_base 
+OmicronBeta = ew02, ew02_01_base 
+ew02 = ew02, ew02_01_base 
+Omega41 = ew03, ew03_01_base 
+Omega_41 = ew03, ew03_01_base 
+Omega-41 = ew03, ew03_01_base 
+ew03 = ew03, ew03_01_base 
+OmicronTheta = ew04, ew04_01_base 
+ew04 = ew04, ew04_01_base 
+Unknown = ew06, ew06_01_base 
+ew06 = ew06, ew06_01_base 

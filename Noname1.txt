@@ -1,0 +1,46 @@
+﻿<data file="data\solar\solararch.ini" method="sectionreplace">
+<section>
+[Solar]
+nickname = gas_miner
+</section>
+<dest>
+hit_pts = 999999961690316250000000000000000000.000000
+</dest>
+<source>
+destructible = true
+hit_pts = 5500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = dsy_explosion_large
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionreplace">
+<section>
+[Solar]
+nickname = docking_fixture
+</section>
+<dest>
+hit_pts = 999999961690316250000000000000000000.000000
+</dest>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = fuse_docking_ring, 0.000000, 1
+explosion_arch = explosion_docking_ring
+</source>
+</data>
+
+<data file="data\solar\solararch.ini" method="sectionreplace">
+<section>
+[Solar]
+nickname = Roid_Miner2
+</section>
+<dest>
+hit_pts = 999999961690316250000000000000000000.000000
+</dest>
+<source>
+destructible = true
+hit_pts = 3500000
+fuse = li_dreadnought_burning_fuse04, 0.000000, 1
+</source>
+</data>
