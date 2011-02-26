@@ -22,8 +22,10 @@ nickname = dock_ring
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -35,8 +37,10 @@ nickname = docking_fixture
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -66,8 +70,10 @@ nickname = jumpgate_nodock
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -97,8 +103,10 @@ nickname = track_ring
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -110,8 +118,10 @@ nickname = mplatform
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -195,8 +205,10 @@ nickname = smallstation1_old_nodock
 <source>
 destructible = true
 hit_pts = 4500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -597,8 +609,10 @@ nickname = space_arch_generator
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -610,8 +624,10 @@ nickname = space_arch_chunk1a
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -623,8 +639,10 @@ nickname = space_arch_chunk1b
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -636,8 +654,10 @@ nickname = space_arch_chunk2a
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -649,8 +669,10 @@ nickname = space_arch_chunk2b
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -662,8 +684,10 @@ nickname = space_arch_chunk3a
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -675,8 +699,10 @@ nickname = space_arch_chunk3b
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -688,8 +714,10 @@ nickname = space_arch_chunk3c
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -701,8 +729,10 @@ nickname = space_arch_chunk3d
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -714,8 +744,10 @@ nickname = space_arch_chunk3e
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -727,8 +759,10 @@ nickname = rh_battleship_debris_frnt
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -740,8 +774,10 @@ nickname = rh_battleship_debris_rear
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -753,8 +789,10 @@ nickname = rh_cruiser_debris
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -766,8 +804,10 @@ nickname = rh_cruiser_debris_frnt
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -779,8 +819,10 @@ nickname = rh_cruiser_debris_rear
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -792,8 +834,10 @@ nickname = br_debris_eng
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -805,8 +849,10 @@ nickname = br_debris_hull01
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -818,8 +864,10 @@ nickname = br_debris_hull02
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -831,8 +879,10 @@ nickname = br_debris_hull03
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -844,8 +894,10 @@ nickname = br_debris_hull04
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -857,8 +909,10 @@ nickname = br_debris_hull05
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -870,8 +924,10 @@ nickname = br_debris_hull06
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -883,8 +939,10 @@ nickname = Roid_Miner
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1058,8 +1116,10 @@ nickname = large_transport
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1110,8 +1170,10 @@ nickname = telescope
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1123,8 +1185,10 @@ nickname = com_sat
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1136,8 +1200,10 @@ nickname = blhazard
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1149,8 +1215,10 @@ nickname = baxter_hazard
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1162,8 +1230,10 @@ nickname = gravity_buoy
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1175,8 +1245,10 @@ nickname = nav_buoy
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1188,8 +1260,10 @@ nickname = m10_buoy
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1201,8 +1275,10 @@ nickname = hazard_buoy
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1214,8 +1290,10 @@ nickname = MSN03_buoy
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1245,8 +1323,10 @@ nickname = Trade_Lane_Ring_Construct_A
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1258,8 +1338,10 @@ nickname = Trade_Lane_Ring_Construct_A1
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1271,8 +1353,10 @@ nickname = Trade_Lane_Ring_Construct_B
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1284,8 +1368,10 @@ nickname = Trade_Lane_Ring_Damage_A
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1297,8 +1383,10 @@ nickname = Trade_Lane_Ring_Damage_B
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1310,8 +1398,10 @@ nickname = debris_large01
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1323,8 +1413,10 @@ nickname = debris_xlarge01
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1336,8 +1428,10 @@ nickname = debris_med01
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1349,8 +1443,10 @@ nickname = debris_med02
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1362,8 +1458,10 @@ nickname = fuchu_core
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1375,8 +1473,10 @@ nickname = ast_nomad01_largeA
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1388,8 +1488,10 @@ nickname = ast_nomad01_largeB
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1401,8 +1503,10 @@ nickname = ast_icecrystal_largeA
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1414,8 +1518,10 @@ nickname = ast_icecrystal_largeB
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1427,8 +1533,10 @@ nickname = ast_lava02_largeA
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1440,8 +1548,10 @@ nickname = ast_lava02_largeB
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1453,8 +1563,10 @@ nickname = ast_mineable_largeA
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1466,8 +1578,10 @@ nickname = ast_mineable_largeB
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1479,8 +1593,10 @@ nickname = ast_ice_largeA
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1492,8 +1608,10 @@ nickname = ast_ice_largeB
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1505,8 +1623,10 @@ nickname = ast_solar_mineable_60
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1518,8 +1638,10 @@ nickname = ast_solar_mineable2_60
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1531,8 +1653,10 @@ nickname = ast_solar_beryllium_60
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1544,8 +1668,10 @@ nickname = ast_solar_ice_60
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1557,8 +1683,10 @@ nickname = ast_solar_iceblock_60
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1570,8 +1698,10 @@ nickname = ast_solar_icecarbon_60
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1583,8 +1713,10 @@ nickname = ast_solar_lava02_60
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1857,8 +1989,10 @@ nickname = space_dome
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1870,8 +2004,10 @@ nickname = space_industrial
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1883,8 +2019,10 @@ nickname = space_industrial01
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1896,8 +2034,10 @@ nickname = space_industrial02
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1909,8 +2049,10 @@ nickname = space_habitat_wide
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1922,8 +2064,10 @@ nickname = space_habitat_tall
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -1935,8 +2079,10 @@ nickname = space_research
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2286,8 +2432,10 @@ nickname = planet_storm_5000
 <source>
 destructible = true
 hit_pts = 500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2299,8 +2447,10 @@ nickname = miningbase_abandoned
 <source>
 destructible = true
 hit_pts = 2500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2390,8 +2540,10 @@ fuse = intermed_damage_smallship02, 0.000000, 200
 fuse = intermed_damage_smallship03, 0.000000, 100
 fuse = freeport7_main_fuse1, 0.000000, 1
 fuse = dsy_cruiser_death_player_fuse, 0.000000, 1
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2403,8 +2555,10 @@ nickname = space_arch_obsidian_chunk1a
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2416,8 +2570,10 @@ nickname = space_arch_obsidian_chunk1b
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2429,8 +2585,10 @@ nickname = space_arch_obsidian_chunk2a
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2442,8 +2600,10 @@ nickname = space_arch_obsidian_chunk2b
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2455,8 +2615,10 @@ nickname = space_arch_obsidian_chunk3a
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2468,8 +2630,10 @@ nickname = space_arch_obsidian_chunk3b
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2481,8 +2645,10 @@ nickname = space_arch_obsidian_chunk3c
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2494,8 +2660,10 @@ nickname = space_arch_obsidian_chunk3d
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2507,8 +2675,10 @@ nickname = space_arch_obsidian_chunk3e
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2810,8 +2980,10 @@ nickname = mine_buoy
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2823,8 +2995,10 @@ nickname = asteroid_buoy
 <source>
 destructible = true
 hit_pts = 1500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2836,8 +3010,10 @@ nickname = wild_gate_nodock
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2867,8 +3043,10 @@ nickname = dsy_nomad_ancient_gate_broken
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2880,8 +3058,10 @@ nickname = dsy_nomad_ancient_gate_broken_nodock
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2911,8 +3091,10 @@ nickname = dsy_nomad_lane_nodock
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -2924,8 +3106,10 @@ nickname = dsy_nomad_cryocrystal
 <source>
 destructible = true
 hit_pts = 3500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = explosion_docking_ring
+fuse = dsy_battleship_disarm_fuse, 0.000000, 1
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
 </source>
 </data>
 
@@ -3096,6 +3280,219 @@ innards_debris_object = simple_space_habitat_dmg
 <source>
 innards_debris_object = simple_space_beaml_dmg
 innards_debris_object = simple_space_beamx_dmg
+</source>
+</data>
+
+<data file="data\fx\fuse.ini" method="append" numTimes="1">
+<section>
+[fuse]
+name = dsy_battleship_disarm_fuse
+</section>
+<source>
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_01
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_02
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_03
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_04
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_05
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_06
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_07
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_08
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_09
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_10
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_11
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_12
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_13
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_14
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_15
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_16
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_17
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_18
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_19
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_20
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_21
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_22
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_23
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_24
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s1_25
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_01
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_02
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_03
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_04
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_05
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_06
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_07
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_08
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_09
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_10
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_11
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_12
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_13
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_14
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_15
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_16
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_17
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_18
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_19
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_20
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_21
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_22
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_23
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_24
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_s2_25
+fate = debris
+[destroy_hp_attachment]
+at_t = 0.000000, 1.000000
+hardpoint = HpTurret_O1_01
+fate = debris
 </source>
 </data>
 
