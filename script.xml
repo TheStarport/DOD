@@ -2801,8 +2801,13 @@ nickname = dsy_nomad_city
 <source>
 destructible = true
 hit_pts = 5500000
-fuse = fuse_docking_ring, 0.000000, 1
-explosion_arch = dsy_explosion_large
+fuse = fuse_gas_collector_burning, 0.000000, 17325
+fuse = miningbase_small_ice_burning_fuse, 0, 1
+fuse = station_burning_fuse, 0.000000, 17325
+fuse = fuse_suprise_drop_loot, 0.000000, 3590
+fuse = fuse_gas_miner_burning, 0.000000, 17325
+fuse = fuse_space_arch_burning, 0.000000, 1
+fuse = freeport7_main_fuse1, 0.000000, 1
 </source>
 </data>
 
