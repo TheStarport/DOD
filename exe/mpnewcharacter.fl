@@ -1,9 +1,9 @@
 [Player]
 name = %%NAME%%
 ;initial_rep = %%FACTION%%
-rank = 1
+rank = 0
 
-money = 250000001
+money = 925000000
 ;voice = %%VOICE%%
 ;All must be Trent!
 voice = trent_voice
@@ -12,134 +12,235 @@ costume = %%BASE_COSTUME%%
 com_costume = %%COMM_COSTUME%%
 
 system = li01
-pos = 0, 15000, 0
-rotate = -178.176, -6.35806, 179.899
-last_base = li01_01_base
-house = 0, li_n_grp
-house = 0, li_lsf_grp
+base = li01_01_base
+
+house = 0.91, li_n_grp
+house = 0.65, li_lsf_grp
 house = 0, li_p_grp
 house = 0, br_n_grp
 house = 0, br_p_grp
-house = 0, ku_n_grp
-house = 0, ku_p_grp
-house = 0, rh_n_grp
-house = 0, rh_p_grp
+house = 0.1, ku_n_grp
+house = 0.1, ku_p_grp
+house = 0.1, rh_n_grp
+house = 0.1, rh_p_grp
 house = 0, co_alg_grp
 house = 0, co_be_grp
 house = 0, br_m_grp
 house = 0, co_nws_grp
 house = 0, co_hsp_grp
 house = 0, co_ic_grp
-house = 0, co_khc_grp
-house = 0, co_kt_grp
+house = 0.3, co_khc_grp
+house = 0.3, co_kt_grp
 house = 0, rh_m_grp
 house = 0, co_me_grp
 house = 0, co_ni_grp
 house = 0, co_os_grp
-house = 0, co_rs_grp
-house = 0, co_shi_grp
+house = 0.3, co_rs_grp
+house = 0.3, co_shi_grp
 house = 0, co_ss_grp
 house = 0, co_ti_grp
 house = 0, co_vr_grp
-house = 0, fc_bd_grp
-house = 0, fc_b_grp
-house = 0, fc_c_grp
-house = 0, fc_fa_grp
-house = 0, fc_g_grp
-house = 0, fc_gc_grp
-house = 0, fc_h_grp
-house = 0, fc_j_grp
-house = 0, fc_lh_grp
-house = 0, fc_lr_grp
-house = 0, fc_lwb_grp
-house = 0, fc_m_grp
-house = 0, fc_ou_grp
-house = 0, fc_rh_grp
-house = 0, fc_or_grp
-house = 0, fc_u_grp
-house = 0, fc_x_grp
-house = 0, gd_gm_grp
+house = 0.3, fc_bd_grp
+house = 0.3, fc_b_grp
+house = 0.4, fc_c_grp
+house = 0.3, fc_fa_grp
+house = 0.3, fc_g_grp
+house = 0.65, fc_gc_grp
+house = 0.4, fc_h_grp
+house = 0.3, fc_j_grp
+house = 0.55, fc_lh_grp
+house = 0.65, fc_lr_grp
+house = 0.5, fc_lwb_grp
+house = 0.65, fc_m_grp
+house = 0.4, fc_ou_grp
+house = 0.65, fc_rh_grp
+house = 0.3, fc_or_grp
+house = 0.65, fc_u_grp
+house = 0.75, fc_x_grp
+house = 0.1, gd_gm_grp
 house = 0, fc_uk_grp
-house = 0.65, fc_n_grp
-house = 0, fc_ln_grp
-house = 0, fc_kn_grp
-house = 0, fc_rn_grp
-house = 0, fc_ouk_grp
+house = 0.85, fc_n_grp
+house = 0.65, fc_ln_grp
+house = 0.65, fc_kn_grp
+house = 0.65, fc_rn_grp
+house = 0.3, fc_ouk_grp
 house = 0, fc_q_grp
-house = 0, fc_f_grp
-house = 0, gd_im_grp
+house = 0.3, fc_f_grp
+house = 0.15, gd_im_grp
 house = 0, gd_z_grp
-house = 0, gd_bh_grp
-house = 0, li_n_guardian
-house = 0, li_p_guardian
-house = 0, br_n_guardian
-house = 0, br_p_guardian
-house = 0, ku_n_guardian
-house = 0, ku_p_guardian
-house = 0, rh_n_guardian
-house = 0, rh_p_guardian
-house = 0, fc_c_guardian
-house = 0, fc_ou_guardian
-house = 0, fc_rh_guardian
-house = 0, fc_bd_guardian
-house = 0, fc_j_guardian
-house = 0, fc_h_guardian
-house = 0, fc_m_guardian
-house = 0, fc_x_guardian
-house = 0, fc_b_guardian
-house = 0, fc_g_guardian
-house = 0, fc_lh_guardian
-house = 0, fc_u_guardian
-house = 0, fc_gc_guardian
-house = 0, fc_lwb_guardian
-house = 0, fc_fa_guardian
-house = 0, fc_lr_guardian
-house = 0, fc_or_guardian
-house = 0, gd_gm_guardian
-house = 0, gd_im_guardian
-house = 0, gd_z_guardian
-house = 0, gd_bh_guardian
-house = -0.91, fc_admin
-house = 0.91, fc_neutral
-house = 0.92, fc_freelancer
-house = 0.65, fc_wild
-house = 0, fc_phantom
-house = 0.65, fc_n_guardian
-house = 0, ga_n_grp
-house = 0, ga_p_grp
+house = 0.3, gd_bh_grp
+house = 0.65, li_n_guardian
+house = 0.65, li_p_guardian
+house = 0.65, br_n_guardian
+house = 0.65, br_p_guardian
+house = 0.65, ku_n_guardian
+house = 0.65, ku_p_guardian
+house = 0.65, rh_n_guardian
+house = 0.65, rh_p_guardian
+house = 0.65, fc_c_guardian
+house = 0.65, fc_ou_guardian
+house = 0.65, fc_rh_guardian
+house = 0.65, fc_bd_guardian
+house = 0.65, fc_j_guardian
+house = 0.65, fc_h_guardian
+house = 0.65, fc_m_guardian
+house = 0.65, fc_x_guardian
+house = 0.65, fc_b_guardian
+house = 0.65, fc_g_guardian
+house = 0.91, fc_lh_guardian
+house = 0.65, fc_u_guardian
+house = 0.65, fc_gc_guardian
+house = 0.65, fc_lwb_guardian
+house = 0.65, fc_fa_guardian
+house = 0.65, fc_lr_guardian
+house = 0.65, fc_or_guardian
+house = 0.65, gd_gm_guardian
+house = 0.65, gd_im_guardian
+house = 0.65, gd_z_guardian
+house = 0.65, gd_bh_guardian
+house = 0.85, fc_admin
+house = 0, fc_neutral
+house = 0, fc_freelancer
+house = 0.85, fc_wild
+house = 0.65, fc_phantom
+house = 0.85, fc_n_guardian
+house = 0.75, ga_n_grp
+house = 0.65, ga_p_grp
 house = 0, ga_council_grp
-house = 0, ga_gms_grp
-house = 0, ga_efl_grp
-house = 0, ga_idf_grp
+house = 0.3, ga_gms_grp
+house = 0.3, ga_efl_grp
+house = 0.3, ga_idf_grp
+house = 0.3, ga_sol_grp
 house = 0, fc_maquis_grp
-house = 0, fc_corse_grp
-house = 0, fc_brigands_grp
-rep_group = fc_freelancer
-ship_archetype = 2424201987			; dsy_rh_battleship
-equip = 2164801159, , 1			; dsy_rb_engine
-equip = 3220718660, , 1			; rh_battleship_power01
-equip = 2187252623, , 1			; ge_s_scanner_10
-equip = 3095853901, HpShield01, 1		; shield01_mark10_dread_m
-equip = 2653484614, , 1			; dsy_license_mercenary
-equip = 2795147333, HpTurret_R1_01, 1	; mortar
-equip = 2836091905, HpTurret_R1_02, 1	; infernocannon
-equip = battlerazor, HpTurret_R1_03, 1	; co_repair_turret01
-equip = ga_battleship_missile_turret01, HpTurret_R1_04, 1	; rh_battleship_missile_turret01
-equip = ku_battleship_missile_turret01, HpTurret_R2_01, 1	; rh_battleship_missile_turret01
-equip = battlerazor, HpTurret_R2_02, 1	; cou_battleship_turret02
-equip = ga_battleship_turret01, HpTurret_R2_03, 1	; cou_battleship_turret02
-equip = ga_battleship_turret01, HpTurret_R2_04, 1	; cou_battleship_turret02
-equip = cerberusturret, HpTurret_R3_01, 1	; cou_battleship_turret02
-equip = cerberusturret, HpTurret_R3_03, 1	; cou_battleship_turret02
-equip = rh_battleship_turret04, HpTurret_R3_05, 1	; cou_battleship_turret02
-equip = rh_battleship_turret04, HpTurret_R3_06, 1	; cou_battleship_turret02
-equip = cou_battleship_turret01, HpTurret_R4_01, 1	; cou_battleship_turret02
-equip = cou_battleship_turret01, HpTurret_R4_02, 1	; cou_battleship_turret02
-equip = br_battleship_turret03, HpTurret_R4_03, 1	; cou_battleship_turret02
-equip = br_battleship_turret03, HpTurret_R4_04, 1	; cou_battleship_turret02
-equip = dsy_purpleturretb, HpTurret_R4_05, 1	; cou_battleship_turret02
-equip = dsy_purpleturretb, HpTurret_R4_07, 1	; cou_battleship_turret02
-equip = 2356232010, , 1			; sfx_rumble_battleship
-equip = 2199297029, HpCM01, 1		; ge_s_cm_04
-cargo = 2211913230, 34, , , 0		; ge_s_cm_04_ammo
-equip = 2830463233, , 1			; dsy_armor16
+house = 0.3, fc_corse_grp
+house = 0.3, fc_brigands_grp
+house = 0.3, ga_j_grp
+rep_group = fc_f_grp
+
+;Li01
+visit = 2208796239,1
+;Li02
+visit = 2745692751,1
+;Li03
+visit = 2208818767,1
+;Li04
+visit = 2745633359,1
+;Br01
+visit = 2945966082,1
+;Br02
+visit = 2409077762,1
+;Br03
+visit = 2945943554,1
+;Br04
+visit = 2409063426,1
+;Br05
+visit = 2945937410,1
+;Br06
+visit = 2409040898,1
+;Rh01
+visit = 2281145474,1
+;Rh02
+visit = 2818046082,1
+;Rh03
+visit = 2281172098,1
+;Rh04
+visit = 2817982594,1
+;Rh05
+visit = 2281116802,1
+;Ku01
+visit = 3013596745,1
+;Ku02
+visit = 2476714569,1
+;Ku03
+Visit = 3013590601,1
+;Ku04
+visit = 2476692041,1
+;Ku05
+visit = 3013559881,1
+;Iw01
+visit = 3146760779,1
+;Iw02
+visit = 2609888843,1
+;Iw03
+visit = 3146754635,1
+;Iw04
+visit = 2609858123,1
+;Iw05
+visit = 3146732107,1
+;Iw06
+visit = 2609851979,1
+;BR07
+visit = 2945914882,1
+;RH06
+visit = 2818009218,1
+;KU13
+visit = 3013328451,1
+
+ship_archetype = 2642294987			; dsy_lifter
+equip = 2736162821, HpCM01, 1		; ge_s_cm_05
+equip = 2802020621, HpRunningLight01, 1	; SlowSmallOrange
+equip = 2802020621, HpRunningLight02, 1	; SlowSmallOrange
+equip = 3005133262, HpRunningLight07, 1	; White
+equip = 2897720391, , 1			; dsy_lifter_engine
+equip = 2883058308, , 1			; dsy_lifter_power
+equip = 2723858309, , 1			; ge_s_scanner_01
+equip = 3054838599, , 1			; dsy_license_freelancer
+equip = 2852390475, , 1			; sfx_rumble_lifter
+cargo = 3062202251, 118, , , 0		; commodity_polymers
+cargo = 2734967041, 118, , , 0		; commodity_industrial
+cargo = 2664163777, 101, , , 0		; commodity_basic_alloys
+cargo = 2517790468, 118, , , 0		; commodity_super_alloys
+cargo = 2260241671, 51, , , 0		; commodity_optronics
+cargo = 2970014724, 51, , , 0		; commodity_cryocubes
+cargo = 2883384452, 31, , , 0		; commodity_nucleardevices
+equip = 2775046401, HpThruster01, 1	; dsy_capital_thruster
+equip = 3108339138, HpShield01, 1		; shield01_mark09_fr
+equip = 2504894597, HpTurret_U1_05, 1; co_repair_turret01
+equip = 2504894597, HpTurret_U1_04, 1; co_repair_turret01
+equip = 2504894597, HpTurret_U1_03, 1; co_repair_turret01
+equip = 2504894597, HpTurret_U1_02, 1; co_repair_turret01
+equip = 2504894597, HpTurret_U1_01, 1; co_repair_turret01
+last_base = Li05_03_Base			; 2812983816
+base_hull_status = 1
+base_collision_group = lifter_clamp01_lod1, 1
+base_equip = 2736162821, HpCM01, 1		; ge_s_cm_05
+base_equip = 2802020621, HpRunningLight01, 1; SlowSmallOrange
+base_equip = 2802020621, HpRunningLight02, 1; SlowSmallOrange
+base_equip = 3005133262, HpRunningLight07, 1; White
+base_equip = 2897720391, , 1		; dsy_lifter_engine
+base_equip = 2883058308, , 1		; dsy_lifter_power
+base_equip = 2723858309, , 1		; ge_s_scanner_01
+base_equip = 3054838599, , 1		; dsy_license_freelancer
+base_equip = 2852390475, , 1		; sfx_rumble_lifter
+base_cargo = 3062202251, 118, , , 0	; commodity_polymers
+base_cargo = 2734967041, 118, , , 0	; commodity_industrial
+base_cargo = 2664163777, 101, , , 0	; commodity_basic_alloys
+base_cargo = 2517790468, 118, , , 0	; commodity_super_alloys
+base_cargo = 2260241671, 51, , , 0		; commodity_optronics
+base_cargo = 2970014724, 51, , , 0		; commodity_cryocubes
+base_cargo = 2883384452, 31, , , 0		; commodity_nucleardevices
+base_equip = 2775046401, HpThruster01, 1	; dsy_capital_thruster
+base_equip = 3108339138, HpShield01, 1	; shield01_mark09_fr
+base_equip = 2504894597, HpTurret_U1_05, 1; co_repair_turret01
+base_equip = 2504894597, HpTurret_U1_04, 1; co_repair_turret01
+base_equip = 2504894597, HpTurret_U1_03, 1; co_repair_turret01
+base_equip = 2504894597, HpTurret_U1_02, 1; co_repair_turret01
+base_equip = 2504894597, HpTurret_U1_01, 1; co_repair_turret01
+
+[MissionState]
+mission_accepted = 1 ; yes we have mission
+att_clamp = true
+tradelane_attacks = true
+scan_clamp = true
+gcs_clamp = false
+hostile_clamp = false
+random_pop = true
+
+[BStoryMissionDone]
+
+[StoryInfo]
+ship_bought = false
+Mission = Mission_13
+MissionNum = 0
+delta_worth = -1.000000
+debug = 1
