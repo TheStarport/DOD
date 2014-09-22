@@ -1,17 +1,17 @@
-[Player]
-name = %%NAME%%
-;initial_rep = %%FACTION%%
-rank = 0
+[player]
+name = %%name%%
+;initial_rep = %%faction%%
+rank = 10
 
 money = 925000000
-;voice = %%VOICE%%
-;All must be Trent!
+;voice = %%voice%%
+;all must be trent!
 voice = trent_voice
 
-costume = %%BASE_COSTUME%%
-com_costume = %%COMM_COSTUME%%
+costume = %%base_costume%%
+com_costume = %%comm_costume%%
 
-system = li01
+system = Li01
 base = li01_01_base
 
 house = 0.91, li_n_grp
@@ -117,74 +117,73 @@ house = 0.3, fc_brigands_grp
 house = 0.3, ga_j_grp
 rep_group = fc_f_grp
 
-;Li01
+;li01
 visit = 2208796239,1
-;Li02
+;li02
 visit = 2745692751,1
-;Li03
+;li03
 visit = 2208818767,1
-;Li04
+;li04
 visit = 2745633359,1
-;Br01
+;br01
 visit = 2945966082,1
-;Br02
+;br02
 visit = 2409077762,1
-;Br03
+;br03
 visit = 2945943554,1
-;Br04
+;br04
 visit = 2409063426,1
-;Br05
+;br05
 visit = 2945937410,1
-;Br06
+;br06
 visit = 2409040898,1
-;Rh01
+;rh01
 visit = 2281145474,1
-;Rh02
+;rh02
 visit = 2818046082,1
-;Rh03
+;rh03
 visit = 2281172098,1
-;Rh04
+;rh04
 visit = 2817982594,1
-;Rh05
+;rh05
 visit = 2281116802,1
-;Ku01
+;ku01
 visit = 3013596745,1
-;Ku02
+;ku02
 visit = 2476714569,1
-;Ku03
-Visit = 3013590601,1
-;Ku04
+;ku03
+visit = 3013590601,1
+;ku04
 visit = 2476692041,1
-;Ku05
+;ku05
 visit = 3013559881,1
-;Iw01
+;iw01
 visit = 3146760779,1
-;Iw02
+;iw02
 visit = 2609888843,1
-;Iw03
+;iw03
 visit = 3146754635,1
-;Iw04
+;iw04
 visit = 2609858123,1
-;Iw05
+;iw05
 visit = 3146732107,1
-;Iw06
+;iw06
 visit = 2609851979,1
-;BR07
+;br07
 visit = 2945914882,1
-;RH06
+;rh06
 visit = 2818009218,1
-;KU13
+;ku13
 visit = 3013328451,1
 
 ship_archetype = 2642294987			; dsy_lifter
-equip = 2736162821, HpCM01, 1		; ge_s_cm_05
-equip = 2802020621, HpRunningLight01, 1	; SlowSmallOrange
-equip = 2802020621, HpRunningLight02, 1	; SlowSmallOrange
-equip = 3005133262, HpRunningLight07, 1	; White
+equip = 2736162821, hpcm01, 1		; ge_s_cm_05
+equip = 2802020621, hprunninglight01, 1	; slowsmallorange
+equip = 2802020621, hprunninglight02, 1	; slowsmallorange
+equip = 3005133262, hprunninglight07, 1	; white
 equip = 2897720391, , 1			; dsy_lifter_engine
 equip = 2883058308, , 1			; dsy_lifter_power
 equip = 2723858309, , 1			; ge_s_scanner_01
-equip = 3054838599, , 1			; dsy_license_freelancer
 equip = 2852390475, , 1			; sfx_rumble_lifter
 cargo = 3062202251, 118, , , 0		; commodity_polymers
 cargo = 2734967041, 118, , , 0		; commodity_industrial
@@ -193,24 +192,23 @@ cargo = 2517790468, 118, , , 0		; commodity_super_alloys
 cargo = 2260241671, 51, , , 0		; commodity_optronics
 cargo = 2970014724, 51, , , 0		; commodity_cryocubes
 cargo = 2883384452, 31, , , 0		; commodity_nucleardevices
-equip = 2775046401, HpThruster01, 1	; dsy_capital_thruster
-equip = 3108339138, HpShield01, 1		; shield01_mark09_fr
-equip = 2504894597, HpTurret_U1_05, 1; co_repair_turret01
-equip = 2504894597, HpTurret_U1_04, 1; co_repair_turret01
-equip = 2504894597, HpTurret_U1_03, 1; co_repair_turret01
-equip = 2504894597, HpTurret_U1_02, 1; co_repair_turret01
-equip = 2504894597, HpTurret_U1_01, 1; co_repair_turret01
-last_base = Li05_03_Base			; 2812983816
+equip = 2775046401, hpthruster01, 1	; dsy_capital_thruster
+equip = 3108339138, hpshield01, 1		; shield01_mark09_fr
+equip = 2504894597, hpturret_u1_05, 1; co_repair_turret01
+equip = 2504894597, hpturret_u1_04, 1; co_repair_turret01
+equip = 2504894597, hpturret_u1_03, 1; co_repair_turret01
+equip = 2504894597, hpturret_u1_02, 1; co_repair_turret01
+equip = 2504894597, hpturret_u1_01, 1; co_repair_turret01
+last_base = li01_01_base
 base_hull_status = 1
 base_collision_group = lifter_clamp01_lod1, 1
-base_equip = 2736162821, HpCM01, 1		; ge_s_cm_05
-base_equip = 2802020621, HpRunningLight01, 1; SlowSmallOrange
-base_equip = 2802020621, HpRunningLight02, 1; SlowSmallOrange
-base_equip = 3005133262, HpRunningLight07, 1; White
+base_equip = 2736162821, hpcm01, 1		; ge_s_cm_05
+base_equip = 2802020621, hprunninglight01, 1; slowsmallorange
+base_equip = 2802020621, hprunninglight02, 1; slowsmallorange
+base_equip = 3005133262, hprunninglight07, 1; white
 base_equip = 2897720391, , 1		; dsy_lifter_engine
 base_equip = 2883058308, , 1		; dsy_lifter_power
 base_equip = 2723858309, , 1		; ge_s_scanner_01
-base_equip = 3054838599, , 1		; dsy_license_freelancer
 base_equip = 2852390475, , 1		; sfx_rumble_lifter
 base_cargo = 3062202251, 118, , , 0	; commodity_polymers
 base_cargo = 2734967041, 118, , , 0	; commodity_industrial
@@ -219,15 +217,15 @@ base_cargo = 2517790468, 118, , , 0	; commodity_super_alloys
 base_cargo = 2260241671, 51, , , 0		; commodity_optronics
 base_cargo = 2970014724, 51, , , 0		; commodity_cryocubes
 base_cargo = 2883384452, 31, , , 0		; commodity_nucleardevices
-base_equip = 2775046401, HpThruster01, 1	; dsy_capital_thruster
-base_equip = 3108339138, HpShield01, 1	; shield01_mark09_fr
-base_equip = 2504894597, HpTurret_U1_05, 1; co_repair_turret01
-base_equip = 2504894597, HpTurret_U1_04, 1; co_repair_turret01
-base_equip = 2504894597, HpTurret_U1_03, 1; co_repair_turret01
-base_equip = 2504894597, HpTurret_U1_02, 1; co_repair_turret01
-base_equip = 2504894597, HpTurret_U1_01, 1; co_repair_turret01
+base_equip = 2775046401, hpthruster01, 1	; dsy_capital_thruster
+base_equip = 3108339138, hpshield01, 1	; shield01_mark09_fr
+base_equip = 2504894597, hpturret_u1_05, 1; co_repair_turret01
+base_equip = 2504894597, hpturret_u1_04, 1; co_repair_turret01
+base_equip = 2504894597, hpturret_u1_03, 1; co_repair_turret01
+base_equip = 2504894597, hpturret_u1_02, 1; co_repair_turret01
+base_equip = 2504894597, hpturret_u1_01, 1; co_repair_turret01
 
-[MissionState]
+[missionstate]
 mission_accepted = 1 ; yes we have mission
 att_clamp = true
 tradelane_attacks = true
@@ -236,11 +234,13 @@ gcs_clamp = false
 hostile_clamp = false
 random_pop = true
 
-[BStoryMissionDone]
+[MsnSolarSave]
+solar_name = fp7base
 
-[StoryInfo]
+[bstorymissiondone]
+
+[storyinfo]
 ship_bought = false
-Mission = Mission_13
-MissionNum = 0
+mission = GenericMission, \missions\m13\m13.ini
+missionnum = 0
 delta_worth = -1.000000
-debug = 1
